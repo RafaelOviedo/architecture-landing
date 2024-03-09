@@ -2,13 +2,13 @@
 </script>
 
 <template>
-  <main class="about-component">
-    About
+  <main class="calculator-component">
+    Calculadora
   </main>
 </template>
 
 <style>
-.about-component {
+.calculator-component {
   width: 100%;
   height: 700px;
   border: 1px solid blue;

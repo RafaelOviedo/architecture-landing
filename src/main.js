@@ -1,3 +1,5 @@
+// Common files
+import './common/imports.css';
 import './assets/main.css'
 
 // Main
@@ -9,6 +11,7 @@ import PrimeVue from 'primevue/config';
 import 'primevue/resources/themes/saga-blue/theme.css';
 import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
+
 
 import App from './App.vue'
 import router from './router'
