@@ -5,18 +5,6 @@
     </div>
 
     <div id="projects-container">
-      <div class="project-box">
-        <div id="project-thumbnail-container">
-          <img class="project-thumb" src="../assets/images/projects/PaineCC/1.jpeg" alt="project picture" />
-        </div>
-
-        <div id="project-title-container">
-          <!-- <router-link :to="{ name: 'project_detail', params: { id: project.id } }"> -->
-            <h3>Paine CC</h3>
-          <!-- </router-link> -->
-        </div>
-      </div>
-
       <div v-for="project in projectsData.projects" :key="project.id" class="project-box">
         <div id="project-thumbnail-container">
           <img class="project-thumb" :src="project.thumbnail_image" alt="project picture" />
