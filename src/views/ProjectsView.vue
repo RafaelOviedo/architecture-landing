@@ -5,31 +5,15 @@
     </div>
 
     <div id="projects-container">
-      <div class="project-box">
+      <div v-for="project in projectsData.projects" :key="project.id" class="project-box">
         <div id="project-thumbnail-container">
-          Imagen
+          <img class="project-thumb" :src="project.thumbnail_image" alt="project picture" />
         </div>
 
         <div id="project-title-container">
-          <h3>Proyecto 1</h3>
-        </div>
-      </div>
-      <div class="project-box">
-        <div id="project-thumbnail-container">
-          Imagen
-        </div>
-
-        <div id="project-title-container">
-          <h3>Proyecto 2</h3>
-        </div>
-      </div>
-      <div class="project-box">
-        <div id="project-thumbnail-container">
-          Imagen
-        </div>
-
-        <div id="project-title-container">
-          <h3>Proyecto 3</h3>
+          <router-link :to="{ name: 'project_detail', params: { id: project.id } }">
+            <h3>{{ project.name }}</h3>
+          </router-link>
         </div>
       </div>
     </div>
@@ -37,6 +21,7 @@
 </template>
 
 <script setup>
+import projectsData from '../assets/json_data/projects.json';
 </script>
 
 <style>
@@ -58,7 +43,6 @@
 #projects-container {
   height: 90%;
   width: 100%;
-  /* border: 1px solid blue; */
   overflow: scroll;
   overflow-x: hidden;
   padding-left: 10%;
@@ -69,11 +53,10 @@
   justify-content: space-around;
   align-items: center;
   width: 90%;
-  height: 60%;
+  height: 50%;
   margin-bottom: 30px;
   border-radius: 5px;
   cursor: pointer;
-  /* border: 1px solid #000; */
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 #project-thumbnail-container {
@@ -82,7 +65,10 @@
   align-items: center;
   height: 70%;
   width: 90%;
-  border: 1px solid red;
+}
+.project-thumb {
+  width: 100%;
+  height: 100%;
 }
 #project-title-container {
   display: flex;

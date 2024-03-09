@@ -1,7 +1,7 @@
 <template>
   <nav class="nav-container">
     <div id="logo-container">
-      <h3 id="logo-image">Logo</h3>
+      <img class="project-logo" src="../../assets/images/logo-mira.jpg" alt="main logo" />
     </div>
 
     <button @click="openNavBarPanel" class="open-navbar-menu-button">
@@ -144,8 +144,21 @@ watchEffect(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
+  width: 35%;
   height: 100%;
+}
+.project-logo {
+  width: 125px;
+  height: 35px;
+}
+@media screen and (width > 768px) {
+  .project-logo {
+    width: 185px;
+    height: 50px;
+  }
+  #logo-container {
+    width: 20%;
+  }
 }
 .nav-item {
   text-decoration: none;

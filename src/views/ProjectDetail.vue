@@ -1,5 +1,5 @@
 <template>
-  <main class="projects-component">
+  <main class="project-detail-component">
     <div>
       <TabMenu v-model:activeIndex="active" :model="items" />
 
@@ -46,7 +46,7 @@ const items = ref([
 </script>
 
 <style>
-.projects-component {
+.project-detail-component {
   display: flex;
   justify-content: center;
   align-items: center;

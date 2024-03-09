@@ -1,0 +1,85 @@
+{
+  "projects":
+  [
+    {
+      "id": 1,
+      "name": "Paine CC",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Buin PS",
+      "thumbnail_image": "./src/assets/images/projects/BuinPS/18.jpg"
+    },
+    {
+      "id": 3,
+      "name": "C. de Tango | SR",
+      "thumbnail_image": "./src/assets/images/projects/CdeTangoSR/12.jpg"
+    },
+    {
+      "id": 4,
+      "name": "C. de Tango II DC",
+      "thumbnail_image": "./src/assets/images/projects/CdeTango2DC/6.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Chicureo JR",
+      "thumbnail_image": "./src/assets/images/projects/ChicureoJR/38.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Algarrobo",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Casablanca",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Talagante",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Estadio Español",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Macul II JC",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Macul JV",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Ñuñoa II",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Peñaloén JP",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Pérgola Estadio Español",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Rancagua HR",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Sodimac",
+      "thumbnail_image": "./src/assets/images/projects/PaineCC/10.jpg"
+    }
+  ]
+}
