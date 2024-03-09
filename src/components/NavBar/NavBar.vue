@@ -10,9 +10,10 @@
 
     <div id="nav-items-desktop-container">
       <div id="nav-items-desktop-box">
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/">Inicio</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/about">Nosotros</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator">Calculadora de M2</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Inicio</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Proyectos</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/about" :class="currentRouteName === 'about' ? 'selected-item' : ''">Nosotros</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">Calculadora de M2</RouterLink>
       </div>
     </div>
 
@@ -26,9 +27,10 @@
           </div>
 
           <div id="nav-items-mobile-container">
-            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/">Inicio</RouterLink>
-            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/about">Nosotros</RouterLink>
-            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator">Calculadora de M2</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Inicio</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Proyectos</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/about" :class="currentRouteName === 'about' ? 'selected-item' : ''">Nosotros</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">Calculadora de M2</RouterLink>
           </div>
         </div>
       </Transition>
@@ -37,9 +39,12 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
-import { ref } from 'vue'
+import { RouterLink, useRouter } from 'vue-router'
+import { ref, watchEffect } from 'vue'
 
+const router = useRouter();
+
+const currentRouteName = ref(null)
 const isNavBarPanelOpen = ref(false);
 
 function openNavBarPanel() {
@@ -48,6 +53,11 @@ function openNavBarPanel() {
 function closeNavBarPanel() {
   isNavBarPanelOpen.value = false;
 }
+
+// Update currentRouteName when route changes
+watchEffect(() => {
+  currentRouteName.value = router.currentRoute.value.name;
+});
 </script>
 
 <style scoped>
@@ -68,7 +78,6 @@ function closeNavBarPanel() {
   align-items: center;
   width: 10%;
   height: 70%;
-  /* border: 1px solid black; */
   border: none;
   background: none;
   border-radius: 5px;
@@ -83,7 +92,6 @@ function closeNavBarPanel() {
   top: 0;
   width: 100%;
   height: 40%;
-  /* border: 1px solid red; */
   background: #fff;
 }
 #close-navbar-menu-button-container {
@@ -117,7 +125,6 @@ function closeNavBarPanel() {
   justify-content: flex-end;
   width: 100%;
   height: 100%;
-  border: 1px solid red;
 }
 #nav-items-desktop-box {
   display: flex;
@@ -125,7 +132,6 @@ function closeNavBarPanel() {
   align-items: center;
   width: 60%;
   height: 100%;
-  border: 1px solid blue;
 }
 @media screen and (width < 769px) {
   #nav-items-desktop-container {
@@ -141,6 +147,10 @@ function closeNavBarPanel() {
 }
 .nav-item {
   text-decoration: none;
+  color: #000;
+}
+.selected-item {
+  border-bottom: 2px solid #000;
 }
 
 /* TRANSITION CLASSES COMPONENT */
