@@ -50,6 +50,10 @@
   }
 }
 
+body {
+  font-family: Roboto;
+}
+
 *,
 *::before,
 *::after {

@@ -71,6 +71,7 @@ watchEffect(() => {
   height: 7vh;
   font-family: Roboto;
   background: #fff;
+  z-index: 2;
 }
 .open-navbar-menu-button {
   display: flex;
@@ -106,8 +107,8 @@ watchEffect(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10%;
-  height: 70%;
+  width: 35px;
+  height: 35px;
   border: 1px solid #000;
   border-radius: 5px;
   background: transparent;
