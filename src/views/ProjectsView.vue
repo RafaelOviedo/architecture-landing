@@ -59,6 +59,23 @@ import projectsData from '../assets/json_data/projects.json';
   cursor: pointer;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
+@media screen and (width > 768px) {
+  #projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+  }
+  .project-box {
+    width: 30%;
+  }
+}
+@media screen and (768px <= width <= 1400px) {
+  .project-box {
+    width: 40%;
+  }
+}
 #project-thumbnail-container {
   display: flex;
   justify-content: center;
