@@ -94,6 +94,7 @@ watchEffect(() => {
   width: 100%;
   height: 40%;
   background: #fff;
+  z-index: 2;
 }
 #close-navbar-menu-button-container {
   display: flex;
