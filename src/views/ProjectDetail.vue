@@ -9,9 +9,9 @@
         <img class="project-thumb" :src="project?.thumbnail_image" alt="project picture" />
       </div>
       <div id="description-container">
-        <p><b>Nombre:</b> {{ project.name }}</p>
-        <p>Año de Culminacion: {{ project.completion_year }}</p>
-        <p>Descripcion:</p>
+        <p><b style="font-weight: bold;">Nombre:</b> {{ project.name }}</p>
+        <p><b style="font-weight: bold;">Año de Culminacion:</b> {{ project.completion_year }}</p>
+        <p><b style="font-weight: bold;">Descripcion:</b></p>
         <p id="description-box">{{ project.description }}</p>
       </div>
     </div>
@@ -23,10 +23,18 @@
       <h2>Fotos</h2>
     </div>
 
-    <div id="tabs-container">
-      <TabMenu v-model:activeIndex="active" :model="items" />
+    <div id="pictures-container">
+      <div id="tab-menu-container">
+        <button @click="selectTab(1)" class="tab-button" :class="isTab1Selected ? 'is-tab-selected' : ''">Diseño</button>
+        <button @click="selectTab(2)" class="tab-button" :class="isTab2Selected ? 'is-tab-selected' : ''">Construccion</button>
+        <button @click="selectTab(3)" class="tab-button" :class="isTab3Selected ? 'is-tab-selected' : ''">Resultado</button>
+      </div>
 
-      <Galleria :value="images" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="max-width: 640px">
+      <div v-if="isTab1Selected" class="tab-container">Tab 1</div>
+      <div v-if="isTab2Selected" class="tab-container">Tab 2</div>
+      <div v-if="isTab3Selected" class="tab-container">Tab 3</div>
+
+      <!-- <Galleria :value="images" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="max-width: 640px">
         <template #item="slotProps">
             <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%" />
         </template>
@@ -35,15 +43,14 @@
         </template>
       </Galleria>
 
-      <Button label="Ver Fotos" @click="displayBasic = true" />
+      <Button label="Ver Fotos" @click="displayBasic = true" /> -->
     </div>
   </main>
 </template>
 
 <script setup>
-import Button from 'primevue/button';
-import TabMenu from 'primevue/tabmenu';
-import Galleria from 'primevue/galleria';
+// import Button from 'primevue/button';
+// import Galleria from 'primevue/galleria';
 import Divider from 'primevue/divider';
 import { ref, onMounted } from "vue";
 import { useRoute } from 'vue-router';
@@ -52,28 +59,51 @@ import projectsData from '../assets/json_data/projects.json';
 const route = useRoute();
 const images = ref();
 const project = ref({});
-const displayBasic = ref(false);
-const active = ref(0);
+const isTab1Selected = ref(true);
+const isTab2Selected = ref(false);
+const isTab3Selected = ref(false);
+// const displayBasic = ref(false);
+// const active = ref(0);
 
-const responsiveOptions = ref([
-    {
-        breakpoint: '1300px',
-        numVisible: 4
-    },
-    {
-        breakpoint: '575px',
-        numVisible: 1
-    }
-]);
+// const responsiveOptions = ref([
+//     {
+//         breakpoint: '1300px',
+//         numVisible: 4
+//     },
+//     {
+//         breakpoint: '575px',
+//         numVisible: 1
+//     }
+// ]);
 
-const items = ref([
-  { label: 'Diseño', icon: '' },
-  { label: 'Construccion', icon: '' },
-  { label: 'Resultado', icon: '' }
-]);
+// const items = ref([
+//   { label: 'Diseño', icon: '' },
+//   { label: 'Construccion', icon: '' },
+//   { label: 'Resultado', icon: '' }
+// ]);
+
+function selectTab(tabNumber) {
+  console.log('SELECTED TAB', tabNumber);
+  if(tabNumber === 1) { 
+    isTab1Selected.value = true;
+    isTab2Selected.value = false;
+    isTab3Selected.value = false;
+   }
+  if(tabNumber === 2) { 
+    isTab1Selected.value = false;
+    isTab2Selected.value = true;
+    isTab3Selected.value = false;
+   }
+  if(tabNumber === 3) { 
+    isTab1Selected.value = false;
+    isTab2Selected.value = false;
+    isTab3Selected.value = true;
+   }
+}
 
 onMounted(() => {
-  project.value = projectsData.projects.find((project) => project.id === route.params.id)
+  project.value = projectsData.projects.find((project) => project.id === route.params.id);
+  images.value = projectsData.projects.map((project) => project);
 })
 </script>
 
@@ -122,9 +152,29 @@ onMounted(() => {
   height: 5%;
   width: 100%;
 }
-#tabs-container {
-  width: 100%;
+#pictures-container {
+  width: 90%;
   height: 50%;
-  border: 1px solid red;
+}
+#tab-menu-container {
+  width: 100%;
+  height: 10%;
+}
+.tab-button {
+  width: 33%;
+  height: 100%;
+  background: none;
+  border: none;
+  font-size: 15px;
+}
+.is-tab-selected {
+  border-bottom: 2px solid #000;
+}
+.tab-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
