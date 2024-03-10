@@ -3,7 +3,7 @@
 
 <template>
   <main class="about-component">
-    About
+    Nosotros
   </main>
 </template>
 

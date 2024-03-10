@@ -2,82 +2,107 @@
   "projects":
   [
     {
-      "id": 1,
+      "id": "1",
       "name": "Paine CC",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg"
+      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "pictures": [
+        "/images/projects/PaineCC/1.jpeg",
+        "/images/projects/PaineCC/2.jpeg",
+        "/images/projects/PaineCC/3.jpg",
+        "/images/projects/PaineCC/4.jpeg",
+        "/images/projects/PaineCC/5.jpeg",
+        "/images/projects/PaineCC/6.jpeg",
+        "/images/projects/PaineCC/7.jpeg",
+        "/images/projects/PaineCC/8.jpg",
+        "/images/projects/PaineCC/9.jpg",
+        "/images/projects/PaineCC/10.jpg",
+        "/images/projects/PaineCC/11.jpg",
+        "/images/projects/PaineCC/12.jpg",
+        "/images/projects/PaineCC/13.jpeg",
+        "/images/projects/PaineCC/14.jpg",
+        "/images/projects/PaineCC/15.jpg",
+        "/images/projects/PaineCC/16.jpg",
+        "/images/projects/PaineCC/17.jpg",
+        "/images/projects/PaineCC/18.jpg",
+        "/images/projects/PaineCC/19.jpg",
+        "/images/projects/PaineCC/20.jpg",
+        "/images/projects/PaineCC/21.jpg"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Buin PS",
       "thumbnail_image": "/images/projects/BuinPS/18.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "C. de Tango | SR",
       "thumbnail_image": "/images/projects/CdeTangoSR/12.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "C. de Tango II DC",
       "thumbnail_image": "/images/projects/CdeTango2DC/6.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Chicureo JR",
       "thumbnail_image": "/images/projects/ChicureoJR/38.jpeg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Algarrobo",
       "thumbnail_image": "/images/projects/PaineCC/10.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Casablanca",
       "thumbnail_image": "/images/projects/PaineCC/10.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Talagante",
       "thumbnail_image": "/images/projects/PaineCC/10.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Estadio Español",
       "thumbnail_image": "/images/projects/PaineCC/10.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Macul II JC",
       "thumbnail_image": "/images/projects/Macul2JC/32.jpeg"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Macul JV",
       "thumbnail_image": "/images/projects/MaculJV/56.jpeg"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Ñuñoa II",
       "thumbnail_image": "/images/projects/PaineCC/10.jpg"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Peñaloén JP",
       "thumbnail_image": "/images/projects/PaineCC/10.jpg"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Pérgola Estadio Español",
       "thumbnail_image": "/images/projects/EstadioEspañol/9.jpg"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Rancagua HR",
       "thumbnail_image": "/images/projects/Rancagua/26.jpg"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Sodimac",
       "thumbnail_image": "/images/projects/PaineCC/10.jpg"
     }
