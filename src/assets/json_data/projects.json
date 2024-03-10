@@ -7,104 +7,181 @@
       "thumbnail_image": "/images/projects/PaineCC/10.jpg",
       "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
       "completion_year": "2019",
-      "pictures": [
-        "/images/projects/PaineCC/1.jpeg",
-        "/images/projects/PaineCC/2.jpeg",
-        "/images/projects/PaineCC/3.jpg",
-        "/images/projects/PaineCC/4.jpeg",
-        "/images/projects/PaineCC/5.jpeg",
-        "/images/projects/PaineCC/6.jpeg",
-        "/images/projects/PaineCC/7.jpeg",
-        "/images/projects/PaineCC/8.jpg",
-        "/images/projects/PaineCC/9.jpg",
-        "/images/projects/PaineCC/10.jpg",
-        "/images/projects/PaineCC/11.jpg",
-        "/images/projects/PaineCC/12.jpg",
-        "/images/projects/PaineCC/13.jpeg",
-        "/images/projects/PaineCC/14.jpg",
-        "/images/projects/PaineCC/15.jpg",
-        "/images/projects/PaineCC/16.jpg",
-        "/images/projects/PaineCC/17.jpg",
-        "/images/projects/PaineCC/18.jpg",
-        "/images/projects/PaineCC/19.jpg",
-        "/images/projects/PaineCC/20.jpg",
-        "/images/projects/PaineCC/21.jpg"
+      "designPictures": [],
+      "constructionPictures": [
+        { "itemImageSrc": "/images/projects/PaineCC/3.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/3.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/8.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/8.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/9.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/9.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/12.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/12.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/15.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/15.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/2.jpeg", "thumbnailImageSrc": "/images/projects/PaineCC/2.jpeg" },
+        { "itemImageSrc": "/images/projects/PaineCC/13.jpeg", "thumbnailImageSrc": "/images/projects/PaineCC/13.jpeg" },
+        { "itemImageSrc": "/images/projects/PaineCC/14.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/14.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/17.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/17.jpg"  }
+      ],
+      "resultPictures": [
+        { "itemImageSrc": "/images/projects/PaineCC/1.jpeg", "thumbnailImageSrc": "/images/projects/PaineCC/1.jpeg" },
+        { "itemImageSrc": "/images/projects/PaineCC/4.jpeg", "thumbnailImageSrc": "/images/projects/PaineCC/4.jpeg" },
+        { "itemImageSrc": "/images/projects/PaineCC/5.jpeg", "thumbnailImageSrc": "/images/projects/PaineCC/5.jpeg" },
+        { "itemImageSrc": "/images/projects/PaineCC/6.jpeg", "thumbnailImageSrc": "/images/projects/PaineCC/6.jpeg" },
+        { "itemImageSrc": "/images/projects/PaineCC/7.jpeg", "thumbnailImageSrc": "/images/projects/PaineCC/7.jpeg" },
+        { "itemImageSrc": "/images/projects/PaineCC/16.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/16.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/18.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/18.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/21.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/21.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/19.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/19.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/10.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/10.jpg" },
+        { "itemImageSrc": "/images/projects/PaineCC/11.jpg", "thumbnailImageSrc": "/images/projects/PaineCC/11.jpg" }
       ]
     },
     {
       "id": "2",
       "name": "Buin PS",
-      "thumbnail_image": "/images/projects/BuinPS/18.jpg"
+      "thumbnail_image": "/images/projects/BuinPS/18.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "3",
       "name": "C. de Tango | SR",
-      "thumbnail_image": "/images/projects/CdeTangoSR/12.jpg"
+      "thumbnail_image": "/images/projects/CdeTangoSR/12.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "4",
       "name": "C. de Tango II DC",
-      "thumbnail_image": "/images/projects/CdeTango2DC/6.jpg"
+      "thumbnail_image": "/images/projects/CdeTango2DC/6.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "5",
       "name": "Chicureo JR",
-      "thumbnail_image": "/images/projects/ChicureoJR/38.jpeg"
+      "thumbnail_image": "/images/projects/ChicureoJR/38.jpeg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "6",
       "name": "Algarrobo",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg"
+      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "7",
       "name": "Casablanca",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg"
+      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "8",
       "name": "Talagante",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg"
+      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "9",
       "name": "Estadio Español",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg"
+      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "10",
       "name": "Macul II JC",
-      "thumbnail_image": "/images/projects/Macul2JC/32.jpeg"
+      "thumbnail_image": "/images/projects/Macul2JC/32.jpeg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "11",
       "name": "Macul JV",
-      "thumbnail_image": "/images/projects/MaculJV/56.jpeg"
+      "thumbnail_image": "/images/projects/MaculJV/56.jpeg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "12",
       "name": "Ñuñoa II",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg"
+      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "13",
       "name": "Peñaloén JP",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg"
+      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "14",
       "name": "Pérgola Estadio Español",
-      "thumbnail_image": "/images/projects/EstadioEspañol/9.jpg"
+      "thumbnail_image": "/images/projects/EstadioEspañol/9.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "15",
       "name": "Rancagua HR",
-      "thumbnail_image": "/images/projects/Rancagua/26.jpg"
+      "thumbnail_image": "/images/projects/Rancagua/26.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     },
     {
       "id": "16",
       "name": "Sodimac",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg"
+      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      "completion_year": "2019",
+      "designPictures": [],
+      "constructionPictures": [],
+      "resultPictures": []
     }
   ]
 }

@@ -30,57 +30,86 @@
         <button @click="selectTab(3)" class="tab-button" :class="isTab3Selected ? 'is-tab-selected' : ''">Resultado</button>
       </div>
 
-      <div v-if="isTab1Selected" class="tab-container">Tab 1</div>
-      <div v-if="isTab2Selected" class="tab-container">Tab 2</div>
-      <div v-if="isTab3Selected" class="tab-container">Tab 3</div>
+      <!-- TAB OF DESIGN PICTURES -->
+      <div v-if="isTab1Selected" class="tab-container">
+        <Galleria v-if="designImages?.length" :value="designImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 640px">
+            <template #item="slotProps">
+                <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%; height: 50%; display: block" />
+            </template>
+            <template #thumbnail="slotProps">
+                <div class="grid grid-nogutter justify-content-center">
+                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" />
+                </div>
+            </template>
+        </Galleria>
+        <div v-else class="no-show-picutures">
+          No hay fotos para mostrar
+        </div>
+      </div>
 
-      <!-- <Galleria :value="images" :responsiveOptions="responsiveOptions" :numVisible="5" containerStyle="max-width: 640px">
-        <template #item="slotProps">
-            <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%" />
-        </template>
-        <template #thumbnail="slotProps">
-            <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" />
-        </template>
-      </Galleria>
+      <!-- TAB OF CONSTRUCTION PICTURES -->
+      <div v-if="isTab2Selected" class="tab-container">
+        <Galleria v-if="constructionImages?.length" :value="constructionImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 640px">
+            <template #item="slotProps">
+                <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%; height: 50%; display: block" />
+            </template>
+            <template #thumbnail="slotProps">
+                <div class="grid grid-nogutter justify-content-center">
+                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" />
+                </div>
+            </template>
+        </Galleria>
+        <div v-else class="no-show-picutures">
+          No hay fotos para mostrar
+        </div>
+      </div>
 
-      <Button label="Ver Fotos" @click="displayBasic = true" /> -->
+      <!-- TAB OF RESULT PICTURES -->
+      <div v-if="isTab3Selected" class="tab-container">
+        <Galleria v-if="resultImages?.length" :value="resultImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 640px">
+            <template #item="slotProps">
+                <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%; height: 50%; display: block" />
+            </template>
+            <template #thumbnail="slotProps">
+                <div class="grid grid-nogutter justify-content-center">
+                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" />
+                </div>
+            </template>
+        </Galleria>
+        <div v-else class="no-show-picutures">
+          No hay fotos para mostrar
+        </div>
+      </div>
     </div>
   </main>
 </template>
 
 <script setup>
-// import Button from 'primevue/button';
-// import Galleria from 'primevue/galleria';
+import Galleria from 'primevue/galleria';
 import Divider from 'primevue/divider';
 import { ref, onMounted } from "vue";
 import { useRoute } from 'vue-router';
 import projectsData from '../assets/json_data/projects.json';
 
 const route = useRoute();
-const images = ref();
+const designImages = ref(null);
+const constructionImages = ref(null);
+const resultImages = ref(null);
 const project = ref({});
 const isTab1Selected = ref(true);
 const isTab2Selected = ref(false);
 const isTab3Selected = ref(false);
-// const displayBasic = ref(false);
-// const active = ref(0);
 
-// const responsiveOptions = ref([
-//     {
-//         breakpoint: '1300px',
-//         numVisible: 4
-//     },
-//     {
-//         breakpoint: '575px',
-//         numVisible: 1
-//     }
-// ]);
-
-// const items = ref([
-//   { label: 'Diseño', icon: '' },
-//   { label: 'Construccion', icon: '' },
-//   { label: 'Resultado', icon: '' }
-// ]);
+const responsiveOptions = ref([
+    {
+        breakpoint: '1300px',
+        numVisible: 4
+    },
+    {
+        breakpoint: '768px',
+        numVisible: 3
+    }
+]);
 
 function selectTab(tabNumber) {
   console.log('SELECTED TAB', tabNumber);
@@ -103,7 +132,9 @@ function selectTab(tabNumber) {
 
 onMounted(() => {
   project.value = projectsData.projects.find((project) => project.id === route.params.id);
-  images.value = projectsData.projects.map((project) => project);
+  designImages.value = project.value.designPictures;
+  constructionImages.value = project.value.constructionPictures;
+  resultImages.value = project.value.resultPictures;
 })
 </script>
 
@@ -172,9 +203,13 @@ onMounted(() => {
 }
 .tab-container {
   width: 100%;
-  height: 90%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 10px;
+}
+.no-show-picutures {
+  padding-top: 50px;
 }
 </style>
