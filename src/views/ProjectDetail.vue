@@ -16,6 +16,7 @@
       </div>
     </div>
 
+    <br>
     <Divider />
     <br>
 
@@ -25,20 +26,20 @@
 
     <div id="pictures-container">
       <div id="tab-menu-container">
-        <button @click="selectTab(1)" class="tab-button" :class="isTab1Selected ? 'is-tab-selected' : ''">Diseño</button>
+        <button @click="selectTab(1)" class="tab-button" :class="isTab1Selected ? 'is-tab-selected' : ''">Diseño / Modelado 3D</button>
         <button @click="selectTab(2)" class="tab-button" :class="isTab2Selected ? 'is-tab-selected' : ''">Construccion</button>
         <button @click="selectTab(3)" class="tab-button" :class="isTab3Selected ? 'is-tab-selected' : ''">Resultado</button>
       </div>
 
       <!-- TAB OF DESIGN PICTURES -->
       <div v-if="isTab1Selected" class="tab-container">
-        <Galleria v-if="designImages?.length" :value="designImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 640px">
+        <Galleria v-if="designImages?.length" :value="designImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 900px" :showItemNavigators="true">
             <template #item="slotProps">
                 <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%; height: 50%; display: block" />
             </template>
             <template #thumbnail="slotProps">
                 <div class="grid grid-nogutter justify-content-center">
-                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" />
+                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" :style="designImages?.length === 1 ? 'width: 20%' : ''" />
                 </div>
             </template>
         </Galleria>
@@ -49,13 +50,13 @@
 
       <!-- TAB OF CONSTRUCTION PICTURES -->
       <div v-if="isTab2Selected" class="tab-container">
-        <Galleria v-if="constructionImages?.length" :value="constructionImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 640px">
+        <Galleria v-if="constructionImages?.length" :value="constructionImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 900px" :showItemNavigators="true">
             <template #item="slotProps">
                 <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%; height: 50%; display: block" />
             </template>
             <template #thumbnail="slotProps">
                 <div class="grid grid-nogutter justify-content-center">
-                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" />
+                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" :style="constructionImages?.length === 1 ? 'width: 20%' : ''" />
                 </div>
             </template>
         </Galleria>
@@ -66,13 +67,13 @@
 
       <!-- TAB OF RESULT PICTURES -->
       <div v-if="isTab3Selected" class="tab-container">
-        <Galleria v-if="resultImages?.length" :value="resultImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 640px">
+        <Galleria v-if="resultImages?.length" :value="resultImages" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true" containerStyle="max-width: 900px" :showItemNavigators="true">
             <template #item="slotProps">
                 <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%; height: 50%; display: block" />
             </template>
             <template #thumbnail="slotProps">
                 <div class="grid grid-nogutter justify-content-center">
-                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" />
+                    <img :src="slotProps.item.thumbnailImageSrc" :alt="slotProps.item.alt" style="width: 90%; display: block" :style="resultImages?.length === 1 ? 'width: 20%' : ''" />
                 </div>
             </template>
         </Galleria>
@@ -185,7 +186,7 @@ onMounted(() => {
 }
 #pictures-container {
   width: 90%;
-  height: 50%;
+  height: 45%;
 }
 #tab-menu-container {
   width: 100%;
@@ -197,6 +198,7 @@ onMounted(() => {
   background: none;
   border: none;
   font-size: 15px;
+  cursor: pointer;
 }
 .is-tab-selected {
   border-bottom: 2px solid #000;
@@ -211,5 +213,30 @@ onMounted(() => {
 }
 .no-show-picutures {
   padding-top: 50px;
+}
+
+@media screen and (width > 768px) {
+  .project-detail-component {
+    height: 1800px;
+  }
+  #description-image-container {
+    display: flex;
+    align-items: flex-start;
+    height: 25%;
+  }
+  #image-container {
+    width: 60%;
+    height: 100%;
+  }
+  #description-container {
+    width: 40%;
+    height: 50%;
+  }
+  #pictures-container {
+    height: 65%;
+  }
+  #tab-menu-container {
+    height: 7%;
+  }
 }
 </style>
