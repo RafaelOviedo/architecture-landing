@@ -2,13 +2,13 @@
 </script>
 
 <template>
-  <main class="about-component">
-    Nosotros
+  <main id="contact-component">
+    Contacto
   </main>
 </template>
 
 <style>
-.about-component {
+#contact-component {
   display: flex;
   justify-content: center;
   align-items: center;

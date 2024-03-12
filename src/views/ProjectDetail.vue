@@ -26,7 +26,7 @@
 
     <div id="pictures-container">
       <div id="tab-menu-container">
-        <button @click="selectTab(1)" class="tab-button" :class="isTab1Selected ? 'is-tab-selected' : ''">Diseño / Modelado 3D</button>
+        <button @click="selectTab(1)" class="tab-button" :class="isTab1Selected ? 'is-tab-selected' : ''">Diseño</button>
         <button @click="selectTab(2)" class="tab-button" :class="isTab2Selected ? 'is-tab-selected' : ''">Construccion</button>
         <button @click="selectTab(3)" class="tab-button" :class="isTab3Selected ? 'is-tab-selected' : ''">Resultado</button>
       </div>

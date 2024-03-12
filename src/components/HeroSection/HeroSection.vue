@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <main class="hero-section-component">
+  <main id="hero-section-component">
     <div id="hero-section-title-container">
       <div id="background-image-container"></div>
       <h2 id="hero-section-title">Tú la imaginas,<br>nosotros la<br>creamos</h2>
@@ -11,10 +11,10 @@
   </main>
 </template>
 
-<style>
-.hero-section-component {
+<style scoped>
+#hero-section-component {
   width: 100%;
-  height: 35%;
+  height: 15%;
 }
 #hero-section-title-container {
   width: 100%;
@@ -30,9 +30,10 @@
 }
 #hero-section-title {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 5%;
   font-size: 50px;
+  font-weight: bold;
   color: #fff;
   line-height: 65px;
 }
@@ -42,5 +43,20 @@
   left: 5%;
   font-size: 25px;
   color: #fff;
+}
+
+@media screen and (width > 768px) {
+  #hero-section-component {
+    height: 17%;
+  }
+  #hero-section-title {
+    top: 20%;
+    left: 15%;
+    font-size: 60px;
+  }
+  #hero-section-subtitle {
+    left: 15%;
+    top: 50%;
+  }
 }
 </style>

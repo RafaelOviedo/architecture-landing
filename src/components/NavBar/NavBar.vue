@@ -12,7 +12,7 @@
       <div id="nav-items-desktop-box">
         <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Inicio</RouterLink>
         <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Proyectos</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/about" :class="currentRouteName === 'about' ? 'selected-item' : ''">Nosotros</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/contact" :class="currentRouteName === 'contact' ? 'selected-item' : ''">Contacto</RouterLink>
         <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">Calculadora de M2</RouterLink>
       </div>
     </div>
@@ -29,7 +29,7 @@
           <div id="nav-items-mobile-container">
             <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Inicio</RouterLink>
             <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Proyectos</RouterLink>
-            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/about" :class="currentRouteName === 'about' ? 'selected-item' : ''">Nosotros</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/contact" :class="currentRouteName === 'contact' ? 'selected-item' : ''">Contacto</RouterLink>
             <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">Calculadora de M2</RouterLink>
           </div>
         </div>
