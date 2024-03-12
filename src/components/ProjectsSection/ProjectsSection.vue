@@ -46,7 +46,7 @@
   height: 10%;
 }
 #projects-section-title {
-  color: #fff;
+  color: #000;
 }
 #project-images-container {
   display: flex;
