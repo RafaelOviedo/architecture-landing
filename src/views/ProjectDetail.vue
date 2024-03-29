@@ -113,7 +113,6 @@ const responsiveOptions = ref([
 ]);
 
 function selectTab(tabNumber) {
-  console.log('SELECTED TAB', tabNumber);
   if(tabNumber === 1) { 
     isTab1Selected.value = true;
     isTab2Selected.value = false;

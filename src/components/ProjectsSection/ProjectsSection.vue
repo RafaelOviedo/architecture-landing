@@ -9,8 +9,8 @@
       </div>
       <div id="project-images-container">
         <img class="project-image" src="/images/projects/ChicureoJR/38.jpeg" alt="project image">
-        <img class="project-image" src="/images/projects/BuinPS/18.jpg" alt="project image">
-        <img class="project-image" src="/images/projects/PaineCC/10.jpg" alt="project image">
+        <img class="project-image" src="/images/projects/OakwoodEstates/18.jpg" alt="project image">
+        <img class="project-image" src="/images/projects/HeritageHomes/10.jpg" alt="project image">
       </div>
       <RouterLink id="button-to-projects-container" to="/projects">
         <button id="button-to-projects">
