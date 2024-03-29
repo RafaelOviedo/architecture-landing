@@ -130,7 +130,7 @@
     {
       "id": "6",
       "name": "Riverbend Retreats",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "thumbnail_image": "/images/projects/HeritageHomes/10.jpg",
       "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
       "completion_year": "2019",
       "designPictures": [],
@@ -140,7 +140,7 @@
     {
       "id": "7",
       "name": "Meadowview Mansions",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "thumbnail_image": "/images/projects/HeritageHomes/10.jpg",
       "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
       "completion_year": "2019",
       "designPictures": [],
@@ -150,7 +150,7 @@
     {
       "id": "8",
       "name": "Elmwood Estates",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "thumbnail_image": "/images/projects/HeritageHomes/10.jpg",
       "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
       "completion_year": "2019",
       "designPictures": [],
@@ -160,77 +160,7 @@
     {
       "id": "9",
       "name": "Maplewood Heights",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
-      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
-      "completion_year": "2019",
-      "designPictures": [],
-      "constructionPictures": [],
-      "resultPictures": []
-    },
-    {
-      "id": "10",
-      "name": "Macul II JC",
-      "thumbnail_image": "/images/projects/Macul2JC/32.jpeg",
-      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
-      "completion_year": "2019",
-      "designPictures": [],
-      "constructionPictures": [],
-      "resultPictures": []
-    },
-    {
-      "id": "11",
-      "name": "Macul JV",
-      "thumbnail_image": "/images/projects/MaculJV/56.jpeg",
-      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
-      "completion_year": "2019",
-      "designPictures": [],
-      "constructionPictures": [],
-      "resultPictures": []
-    },
-    {
-      "id": "12",
-      "name": "Ñuñoa II",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
-      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
-      "completion_year": "2019",
-      "designPictures": [],
-      "constructionPictures": [],
-      "resultPictures": []
-    },
-    {
-      "id": "13",
-      "name": "Peñaloén JP",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
-      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
-      "completion_year": "2019",
-      "designPictures": [],
-      "constructionPictures": [],
-      "resultPictures": []
-    },
-    {
-      "id": "14",
-      "name": "Pérgola Estadio Español",
-      "thumbnail_image": "/images/projects/EstadioEspañol/9.jpg",
-      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
-      "completion_year": "2019",
-      "designPictures": [],
-      "constructionPictures": [],
-      "resultPictures": []
-    },
-    {
-      "id": "15",
-      "name": "Rancagua HR",
-      "thumbnail_image": "/images/projects/Rancagua/26.jpg",
-      "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
-      "completion_year": "2019",
-      "designPictures": [],
-      "constructionPictures": [],
-      "resultPictures": []
-    },
-    {
-      "id": "16",
-      "name": "Sodimac",
-      "thumbnail_image": "/images/projects/PaineCC/10.jpg",
+      "thumbnail_image": "/images/projects/HeritageHomes/10.jpg",
       "description": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
       "completion_year": "2019",
       "designPictures": [],
