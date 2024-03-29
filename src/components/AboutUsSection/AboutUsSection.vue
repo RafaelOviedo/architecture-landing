@@ -54,14 +54,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 10%;
+  height: 20%;
 }
 #contact-button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 80%;
-  height: 100%;
+  height: 50%;
   border: none;
   background: #F6D565;
   cursor: pointer;
@@ -80,7 +80,7 @@
 }
 #image-content {
   width: 80%; 
-  height: 95%;
+  height: 90%;
 }
 
 @media screen and (width > 768px) {
