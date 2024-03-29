@@ -20,7 +20,7 @@
       </div>
 
       <div id="image-container">
-        <img id="image-content" src="/images/projects/BuinPS/22.jpg" alt="">
+        <img id="image-content" src="/images/projects/OakwoodEstates/22.jpg" alt="">
       </div>
     </div>
   </main>
