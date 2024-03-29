@@ -1,7 +1,7 @@
 <template>
   <main class="project-detail-component">
     <div id="project-detail-title-container">
-      <h2>Detalle del Proyecto</h2>
+      <h2>Project Details</h2>
     </div>
 
     <div id="description-image-container">
@@ -9,9 +9,9 @@
         <img class="project-thumb" :src="project?.thumbnail_image" alt="project picture" />
       </div>
       <div id="description-container">
-        <p><b style="font-weight: bold;">Nombre:</b> {{ project.name }}</p>
-        <p><b style="font-weight: bold;">Año de Culminacion:</b> {{ project.completion_year }}</p>
-        <p><b style="font-weight: bold;">Descripcion:</b></p>
+        <p><b style="font-weight: bold;">Name:</b> {{ project.name }}</p>
+        <p><b style="font-weight: bold;">Year of Completion:</b> {{ project.completion_year }}</p>
+        <p><b style="font-weight: bold;">Description:</b></p>
         <p id="description-box">{{ project.description }}</p>
       </div>
     </div>
@@ -21,14 +21,14 @@
     <br>
 
     <div id="pictures-title-container">
-      <h2>Fotos</h2>
+      <h2>Pictures</h2>
     </div>
 
     <div id="pictures-container">
       <div id="tab-menu-container">
-        <button @click="selectTab(1)" class="tab-button" :class="isTab1Selected ? 'is-tab-selected' : ''">Diseño</button>
-        <button @click="selectTab(2)" class="tab-button" :class="isTab2Selected ? 'is-tab-selected' : ''">Construccion</button>
-        <button @click="selectTab(3)" class="tab-button" :class="isTab3Selected ? 'is-tab-selected' : ''">Resultado</button>
+        <button @click="selectTab(1)" class="tab-button" :class="isTab1Selected ? 'is-tab-selected' : ''">Design</button>
+        <button @click="selectTab(2)" class="tab-button" :class="isTab2Selected ? 'is-tab-selected' : ''">Construction</button>
+        <button @click="selectTab(3)" class="tab-button" :class="isTab3Selected ? 'is-tab-selected' : ''">Result</button>
       </div>
 
       <!-- TAB OF DESIGN PICTURES -->
@@ -44,7 +44,7 @@
             </template>
         </Galleria>
         <div v-else class="no-show-picutures">
-          No hay fotos para mostrar
+          No pictures available
         </div>
       </div>
 
@@ -61,7 +61,7 @@
             </template>
         </Galleria>
         <div v-else class="no-show-picutures">
-          No hay fotos para mostrar
+          No pictures available
         </div>
       </div>
 
@@ -78,7 +78,7 @@
             </template>
         </Galleria>
         <div v-else class="no-show-picutures">
-          No hay fotos para mostrar
+          No pictures available
         </div>
       </div>
     </div>

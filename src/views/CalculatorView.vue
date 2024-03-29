@@ -3,7 +3,7 @@
 
 <template>
   <main class="calculator-component">
-    Calculadora
+    M2 Calculator
   </main>
 </template>
 

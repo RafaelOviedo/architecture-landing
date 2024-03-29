@@ -1,6 +1,6 @@
 <template>
   <main id="comments-section-component">
-    <span>Seccion de Comentarios</span>
+    <span>Comments Section</span>
   </main>
 </template>
 

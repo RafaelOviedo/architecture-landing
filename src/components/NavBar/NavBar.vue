@@ -1,7 +1,8 @@
 <template>
   <nav class="nav-container">
     <div id="logo-container">
-      <img class="project-logo" src="../../assets/images/logo-mira.jpg" alt="main logo" />
+      <!-- <img class="project-logo" src="../../assets/images/logo-mira.jpg" alt="main logo" /> -->
+      <h2>LOGO</h2>
     </div>
 
     <button @click="openNavBarPanel" class="open-navbar-menu-button">
@@ -10,10 +11,10 @@
 
     <div id="nav-items-desktop-container">
       <div id="nav-items-desktop-box">
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Inicio</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Proyectos</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/contact" :class="currentRouteName === 'contact' ? 'selected-item' : ''">Contacto</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">Calculadora de M2</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Home</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Projects</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/contact" :class="currentRouteName === 'contact' ? 'selected-item' : ''">Contact</RouterLink>
+        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">M2 Calculator</RouterLink>
       </div>
     </div>
 
@@ -27,10 +28,10 @@
           </div>
 
           <div id="nav-items-mobile-container">
-            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Inicio</RouterLink>
-            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Proyectos</RouterLink>
-            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/contact" :class="currentRouteName === 'contact' ? 'selected-item' : ''">Contacto</RouterLink>
-            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">Calculadora de M2</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Home</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Projects</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/contact" :class="currentRouteName === 'contact' ? 'selected-item' : ''">Contact</RouterLink>
+            <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">M2 Calculator</RouterLink>
           </div>
         </div>
       </Transition>

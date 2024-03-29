@@ -3,7 +3,7 @@
 
 <template>
   <main id="contact-component">
-    Contacto
+    Contact
   </main>
 </template>
 

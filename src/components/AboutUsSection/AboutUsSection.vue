@@ -2,18 +2,18 @@
   <main id="about-us-section-component">
     <div id="about-us-section-container">
       <div id="about-us-info-container">
-        <h1 id="about-us-section-title"><span>Conoce</span> sobre <br> <span>nosotros</span></h1>
+        <h1 id="about-us-section-title"><span>Get to know</span> <br> about <span>us</span></h1>
         <br>
         <p id="about-us-info-text">
-          Somos una empresa constructora, con más de 15 años de experiencia en el desarrollo de proyectos a nivel nacional. 
-          Nos apoyamos con las metodologías innovadoras que fomentan un diseño arquitectónico, amigable con el ambiente y con propuestas de construcción sustentable. 
-          Orientamos todo nuestro esfuerzo para lograr la máxima calidad del proceso constructivo, haciendo especial énfasis en el servicio al cliente, 
-          esto lo cumplimos dada la personalización de cada diseño y las fases operativas hasta su materialización.
+          We are a construction company, with more than 15 years of experience in the development of projects nationwide.
+          We rely on innovative methodologies that promote environmentally friendly architectural design and sustainable construction proposals.
+          We direct all our efforts to achieve the highest quality of the construction process, placing special emphasis on customer service,
+          we accomplish this given the personalization of each design and the operational phases until its materialization.
         </p>
         <br>
         <div id="contact-button-container">
           <button id="contact-button">
-            <span><a href="https://wa.me/+56964597112" style="text-decoration: none; color: #000;">Ponte en contacto</a></span>
+            <span><a href="https://wa.me/+5491133355144" target="_blank" style="text-decoration: none; color: #000;">Get in touch</a></span>
             <i class="pi pi-arrow-right"></i>
           </button>
         </div>

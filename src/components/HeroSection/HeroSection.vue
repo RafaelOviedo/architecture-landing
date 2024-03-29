@@ -5,8 +5,8 @@
   <main id="hero-section-component">
     <div id="hero-section-title-container">
       <div id="background-image-container"></div>
-      <h2 id="hero-section-title">Tú la imaginas,<br>nosotros la<br>creamos</h2>
-      <h4 id="hero-section-subtitle">Crea tu casa con nosotros<br> y redefine tu estilo de vida</h4>
+      <h2 id="hero-section-title">You imagine it,<br>we create it</h2>
+      <h4 id="hero-section-subtitle">Create your house with us<br> and redefine your lifestyle</h4>
     </div>
   </main>
 </template>

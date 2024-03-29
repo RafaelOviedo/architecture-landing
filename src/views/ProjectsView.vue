@@ -1,7 +1,7 @@
 <template>
   <main class="projects-component">
     <div id="projects-title-container">
-      <h2>Proyectos</h2>
+      <h2>Projects</h2>
     </div>
 
     <div id="projects-container">

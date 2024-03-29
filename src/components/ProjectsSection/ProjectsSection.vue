@@ -5,7 +5,7 @@
   <main id="projects-section-component">
     <div id="projects-section-container">
       <div id="projects-section-title-container">
-        <h1 id="projects-section-title">Nuestro Trabajo</h1>
+        <h1 id="projects-section-title">Our Work</h1>
       </div>
       <div id="project-images-container">
         <img class="project-image" src="/images/projects/ChicureoJR/38.jpeg" alt="project image">
@@ -14,7 +14,7 @@
       </div>
       <RouterLink id="button-to-projects-container" to="/projects">
         <button id="button-to-projects">
-          <h2>Ver Proyectos</h2>
+          <h2>Go to Projects</h2>
           <i class="pi pi-arrow-right"></i>
         </button>
       </RouterLink>
