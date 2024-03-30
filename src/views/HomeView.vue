@@ -2,6 +2,7 @@
   <main class="home-component">
     <HeroSection />
     <AboutUsSection />
+    <StepsSection />
     <ProjectsSection />
     <CommentsSection />
   </main>
@@ -10,6 +11,7 @@
 <script setup>
 import HeroSection from '../components/HeroSection/HeroSection.vue';
 import AboutUsSection from '../components/AboutUsSection/AboutUsSection.vue';
+import StepsSection from '../components/StepsSection/StepsSection.vue';
 import ProjectsSection from '../components/ProjectsSection/ProjectsSection.vue';
 import CommentsSection from '../components/CommentsSection/CommentsSection.vue';
 </script>
