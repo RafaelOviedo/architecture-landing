@@ -50,35 +50,36 @@
 }
 
 .icon-box {
-  width: 50%;
-  height: 15%;
+  width: 40%;
+  height: 11%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .icon-text {
   font-size: 20px;
 }
 
 #sustainability-image {
-    width: 100%;
+    width: 95%;
     height: 100%;
   }
   #money-image {
-    width: 90%;
-    height: 100%;
+    width: 80%;
+    height: 75%;
   }
   #earthquake-image {
-    width: 90%;
+    width: 85%;
     height: 100%;
   }
   #construction-image {
-    width: 100%;
+    width: 85%;
     height: 100%;
   }
   #maintenance-image {
-    width: 100%;
+    width: 75%;
     height: 100%;
   }
 
@@ -91,8 +92,8 @@
     flex-direction: row;
   }
   .icon-box {
-    width: 11%;
-    height: 50%;
+    width: 9%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,15 +108,15 @@
     height: 100%;
   }
   #earthquake-image {
-    width: 100%;
+    width: 95%;
     height: 100%;
   }
   #construction-image {
-    width: 100%;
+    width: 95%;
     height: 100%;
   }
   #maintenance-image {
-    width: 100%;
+    width: 85%;
     height: 100%;
   }
 }
