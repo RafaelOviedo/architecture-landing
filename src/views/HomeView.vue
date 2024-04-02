@@ -5,6 +5,7 @@
     <StepsSection />
     <ProjectsSection />
     <CommentsSection />
+    <FooterSection />
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import AboutUsSection from '../components/AboutUsSection/AboutUsSection.vue';
 import StepsSection from '../components/StepsSection/StepsSection.vue';
 import ProjectsSection from '../components/ProjectsSection/ProjectsSection.vue';
 import CommentsSection from '../components/CommentsSection/CommentsSection.vue';
+import FooterSection from '../components/FooterSection/FooterSection.vue';
 </script>
 
 <style>
