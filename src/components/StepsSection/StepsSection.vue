@@ -67,11 +67,11 @@
     height: 100%;
   }
   #money-image {
-    width: 80%;
-    height: 75%;
+    width: 75%;
+    height: 70%;
   }
   #earthquake-image {
-    width: 85%;
+    width: 80%;
     height: 100%;
   }
   #construction-image {
@@ -104,7 +104,7 @@
     height: 100%;
   }
   #money-image {
-    width: 90%;
+    width: 85%;
     height: 100%;
   }
   #earthquake-image {
