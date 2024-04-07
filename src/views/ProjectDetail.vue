@@ -97,8 +97,8 @@ const designImages = ref(null);
 const constructionImages = ref(null);
 const resultImages = ref(null);
 const project = ref({});
-const isTab1Selected = ref(true);
-const isTab2Selected = ref(false);
+const isTab1Selected = ref(false);
+const isTab2Selected = ref(true);
 const isTab3Selected = ref(false);
 
 const responsiveOptions = ref([

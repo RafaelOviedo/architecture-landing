@@ -1,7 +1,11 @@
 
 <template>
   <main class="calculator-component">
-    <div id="title-text-container">
+    M2 Calculator
+    <br />
+    <br />
+    <h5>(Not available at the moment)</h5>
+    <!-- <div id="title-text-container">
       <h2>Welcome to the Architectural Cost Calculator</h2>
       <br />
       <span>
@@ -18,19 +22,19 @@
       <div id="currency-selector-container">
         <MultiSelect v-model="selectedCurrency" :options="currencies" optionLabel="name" placeholder="Currency" :maxSelectedLabels="3" class="w-full md:w-20rem" />
       </div>
-    </form>
+    </form> -->
   </main>
 </template>
 
 <script setup>
-import MultiSelect from 'primevue/multiselect';
-import { ref } from "vue";
+// import MultiSelect from 'primevue/multiselect';
+// import { ref } from "vue";
 
-const selectedCurrency = ref();
-const currencies = ref([
-    { name: '$' },
-    { name: '€' }
-]);
+// const selectedCurrency = ref();
+// const currencies = ref([
+//     { name: '$' },
+//     { name: '€' }
+// ]);
 </script>
 
 <style>
@@ -40,7 +44,9 @@ const currencies = ref([
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 1000px;
+  /* height: 1000px; */
+  height: 92vh;
+  text-align: center;
 }
 #title-text-container {
   display: flex;
@@ -57,7 +63,7 @@ const currencies = ref([
   align-items: center;
   width: 100%;
   height: 70%;
-  border: 1px solid black;
+  border: 1px solid red;
 }
 #currency-selector-container {
   display: flex;

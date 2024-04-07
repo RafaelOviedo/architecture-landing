@@ -6,15 +6,15 @@
       </div>
       <div id="project-images-container">
         <div id="images-first-container">
-          <img id="image1" class="project-image" src="/images/projects/ChicureoJR/38.jpeg" alt="project image">
-          <img id="image2" class="project-image" src="/images/projects/MaculJV/56.jpeg" alt="project image">
+          <img id="image1" class="project-image" src="/images/projects/PinecrestCottages/38.jpeg" alt="project image">
+          <img id="image2" class="project-image" src="/images/projects/RiverbendRetreats/56.jpeg" alt="project image">
         </div>
         <div id="images-second-container">
           <img id="image3" class="project-image" src="/images/projects/OakwoodEstates/18.jpg" alt="project image">
           <img id="image4" class="project-image" src="/images/projects/HeritageHomes/10.jpg" alt="project image">
 
-          <img id="image5" class="project-image" src="/images/projects/MaculJV/43.jpeg" alt="project image">
-          <img id="image6" class="project-image" src="/images/projects/ChicureoJR/18.jpg" alt="project image">
+          <img id="image5" class="project-image" src="/images/projects/RiverbendRetreats/43.jpeg" alt="project image">
+          <img id="image6" class="project-image" src="/images/projects/PinecrestCottages/18.jpg" alt="project image">
         </div>
       </div>
       <RouterLink id="button-to-projects-container" to="/projects">
