@@ -11,10 +11,10 @@
       <div id="servicesInfoContainer">
         <h3 style="text-align: center; font-weight: 500;">Services</h3>
   
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/" :class="currentRouteName === 'home' ? 'selected-item' : ''">Home</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/projects" :class="currentRouteName === 'projects' ? 'selected-item' : ''">Projects</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/contact" :class="currentRouteName === 'contact' ? 'selected-item' : ''">Contact</RouterLink>
-        <RouterLink @click="closeNavBarPanel" class="nav-item" to="/calculator" :class="currentRouteName === 'calculator' ? 'selected-item' : ''">M2 Calculator</RouterLink>
+        <RouterLink class="nav-item" to="/">Home</RouterLink>
+        <RouterLink class="nav-item" to="/projects">Projects</RouterLink>
+        <RouterLink class="nav-item" to="/contact">Contact</RouterLink>
+        <RouterLink class="nav-item" to="/calculator">M2 Calculator</RouterLink>
       </div>
       <div id="socialMediaContainer">
         <a href="https://www.linkedin.com/in/rafael-oviedo/?locale=en_US" target="_blank"><i class="pi pi-linkedin icon"></i></a>
